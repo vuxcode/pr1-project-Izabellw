@@ -1,2 +1,51 @@
 <!-- Start writing your project code in this file! -->
-test
+<script>
+function ask(question,correctAnswer,) {
+  var GivenAnswer = prompt(question);
+    if(correctAnswer == GivenAnswer.toLowerCase()){
+      correct(GivenAnswer);
+    }else{
+      incorrect(GivenAnswer);
+    }
+}
+function correct(a) {
+  document.write ("Your answer " + a + " ,was correct!")
+}
+
+function incorrect(b) {
+  document.write ("Sorry, " + b + " was incorrect.")
+}
+
+ask("Förenkla (a + 2) + (3a - 3) - (2a +1)","2a-2")
+ask("Lös ekvation X + 2 / 8 = 30 / 12","x=18")
+ask("Förenkla 3x + 5y - 2x - y","x+4y") 
+ask("Förenkla 4a - 5b + a + 6b","5a+b")
+ask("förenkla 2a - (3b - a)","3a-3b")
+
+
+
+function ask(question,correctAnswer,) {
+  var GivenAnswer = prompt(question);
+    if(correctAnswer == GivenAnswer.toLowerCase()){
+      correct(GivenAnswer);
+    }else{
+      incorrect(GivenAnswer);
+    }
+}
+function correct(a) {
+  document.write ("Your answer " + a + " ,was correct!")
+}
+
+function incorrect(b) {
+  document.write ("Sorry, " + b + " was incorrect.")
+}
+
+ask("Förenkla x(x + 3) - 2x","")
+ask("Förenkla x + x + x + x - 3x","x")
+ask("Lös ekvationen x - 2(3 - 2x) = 9","x=3") 
+ask("Lös ekvationen 106 = 15 + 7x","x=13")
+ask("Lös ekvationen 51 = 6x - 21","x=12")
+ask("Lös elvationen 5x / 4 = 125","x=100")
+ask("Lös elkvationen 19 = -9,5x / 3","x=-6")
+ask("Lös ekvationen 2x / 4 - 6 = 2,5","x=17")
+</script>
