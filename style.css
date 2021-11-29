@@ -1,3 +1,6 @@
+html {
+ justify-content: center;
+}
 body {
   background-color: green;
 }
@@ -16,7 +19,7 @@ section h1 { text-transform: capitalize;
     text-shadow: 1px 1px 2px white;
     animation: zooms 1s linear infinite;
     animation-direction: alternate; }
-	
+
 .centerdiv{
 	width: 500px;
 	height: 400px; 
