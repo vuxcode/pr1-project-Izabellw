@@ -1,8 +1,5 @@
 # Time Report
 
-> Write about what you have done and how long you have worked on each part of the project.
+- 2021-11-11 11:00 added style document 
 
-For example: 
-
-- 2021-10-15 18:00 Worked for 1 hour. I have done:
-  - *List the things you have done.*
+- 2021-11-11 11:00 - 12:30 added program information 
