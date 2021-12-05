@@ -3,3 +3,5 @@
 - 2021-11-11 11:00 added style document 
 
 - 2021-11-11 11:00 - 12:30 added program information 
+
+- 2021-11-25 13:00 - 14:30 changed the program and took away wrong information to the program 
