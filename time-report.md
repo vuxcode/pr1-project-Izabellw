@@ -8,3 +8,5 @@
 
 - 2021-11-29 14:00 - 17:00 took away some information that i did't needed, and changed the color in the css 
   - justify the HTML 
+
+- 2021-12-11 18:00 - 19:54 Added comment on the program and tyd to change it, but noticed that I coulden't 
