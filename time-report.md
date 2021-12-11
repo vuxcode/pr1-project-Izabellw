@@ -1,8 +1,12 @@
 # Time Report
 
-> Write about what you have done and how long you have worked on each part of the project.
+- 2021-11-11 11:00 added style document 
 
-For example: 
+- 2021-11-11 11:00 - 12:30 added program information 
 
-- 2021-10-15 18:00 Worked for 1 hour. I have done:
-  - *List the things you have done.*
+- 2021-11-25 13:00 - 14:30 changed the program and took away wrong information to the program 
+
+- 2021-11-29 14:00 - 17:00 took away some information that i did't needed, and changed the color in the css 
+  - justify the HTML 
+
+- 2021-12-11 18:00 - 19:54 Added comment on the program and tyd to change it, but noticed that I coulden't 
