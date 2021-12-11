@@ -34,8 +34,8 @@
   let n2 = Math.floor(Math.random()*100+1);
 
   // conect the function to box1 in the body 
-  document.getElementById('v1').answ = n1;
-  document.getElementById('v2').answ = n2;
+  document.getElementById('v1').value = n1;
+  document.getElementById('v2').value= n2;
 
   // conect the ans button to the function 
   let ans = n1 + n2;
@@ -54,7 +54,7 @@
     }
     
     // Conect the button function 
-    document.getElementById("answ").answ = "";
+    document.getElementById("answ").value = "";
 
     n1 = Math.floor(Math.random()*100+1);
     n2 = Math.floor(Math.random()*100+1);
