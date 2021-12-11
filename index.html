@@ -30,15 +30,16 @@
 
 <script>
   // Give the user a function, give the user a random number. 
- let n1 = Math.floor(Math.random()*10+1);
- let n2 = Math.floor(Math.random()*10+1);
+ var n1 = Math.floor(Math.random()*10+1);
+ var n2 = Math.floor(Math.random()*10+1);
 
   // conect the function to box1 in the body 
   document.getElementById('v1').value = n1;
   document.getElementById('v2').value = n2;
 
   // conect the ans button to the function 
-  let ans = n1 + n2;
+  // let variables 
+  var ans = n1 + n2;
 
     const jsGame = () => {
      var user = document.getElementById("answ").value; 
@@ -52,15 +53,16 @@
     else {
       alert("Correct answer is " + ans + ". Try Again. ");
    }
+
+     // restart the program 
      n1 = Math.floor(Math.random()*10+1);
      n2 = Math.floor(Math.random()*10+1);
 
 
     document.getElementById('v1').value = n1;
     document.getElementById('v2').value = n2;
-
    
-  ans = n1 + n2;
+    ans = n1 + n2;
   }
 </script>
 
