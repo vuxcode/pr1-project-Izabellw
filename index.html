@@ -23,26 +23,26 @@
       <input type="text" id="answ">
     </div>
     <div class="sentBox">
-      <button onclick="answ()">Check Answer</button>
+      <button onclick="answer()">Check Answer</button>
     </div>
   </div>
 </selection>
 
 <script>
   // Give the user a function, give the user a random number. 
-  let n1 = Math.floor(Math.random()*100+1);
-  let n2 = Math.floor(Math.random()*100+1);
+  var n1 = Math.floor(Math.random()*100+1);
+  var n2 = Math.floor(Math.random()*100+1);
 
   // conect the function to box1 in the body 
   document.getElementById('v1').value = n1;
   document.getElementById('v2').value= n2;
 
   // conect the ans button to the function 
-  let ans = n1 + n2;
+  var ans = n1 + n2;
 
 
     function answ () {
-    var user = document.getElementById("answ"); 
+    var user = document.getElementById("answer"); 
 
     // give the user a text if the answer is right 
     if(user == ans) {
@@ -54,7 +54,7 @@
     }
     
     // Conect the button function 
-    document.getElementById("answ").value = "";
+    document.getElementById("answer").value = "";
 
     n1 = Math.floor(Math.random()*100+1);
     n2 = Math.floor(Math.random()*100+1);
