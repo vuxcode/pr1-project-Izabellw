@@ -45,7 +45,7 @@
     var user = document.getElementById("answer"); 
 
     // give the user a text if the answer is right 
-    if(user == ans) {
+    if(user == answer) {
       alert("Well done! Your Answer is correct.");
     }
     // if it´s not tight, give the user the right answer 
@@ -56,8 +56,8 @@
     // Conect the button function 
     document.getElementById("answer").value = "";
 
-    n1 = Math.floor(Math.random()*100+1);
-    n2 = Math.floor(Math.random()*100+1);
+    var n1 = Math.floor(Math.random()*100+1);
+    var n2 = Math.floor(Math.random()*100+1);
 
     document.getElementById('v1').value = n1;
     document.getElementById('v2').value = n2;
