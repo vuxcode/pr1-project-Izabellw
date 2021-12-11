@@ -45,12 +45,12 @@
     var user = document.getElementById("answer"); 
 
     // give the user a text if the answer is right 
-    if(user == answer) {
+    if(user == ans) {
       alert("Well done! Your Answer is correct.");
     }
     // if it´s not tight, give the user the right answer 
-    else {
-      alert("Correct answer is " + answer + ". Try Again. ");
+    else  {
+      alert("Correct answer is " + ans+ ". Try Again. ");
     }
     
     // Conect the button function 
@@ -63,7 +63,7 @@
     document.getElementById('v2').value = n2;
     
     // The answer is equal to the number 1 and the number 2 
-    answer= n1 + n2;
+    ans = n1 + n2;
   }
 </script>
 
