@@ -23,7 +23,7 @@
       <input type="text" id="answ">
     </div>
     <div class="sentBox">
-      <button onclick="answer()">Check Answer</button>
+      <button onclick="jsGame()">Check Answer</button>
     </div>
   </div>
 </selection>
@@ -41,8 +41,8 @@
   let ans = n1 + n2;
 
 
-    function answer () {
-     var user = document.getElementById("answer"); 
+    const jsGame = () => {
+     var user = document.getElementById("answ").value; 
 
 
     // check if the answe is right 
