@@ -29,25 +29,29 @@
 </selection>
 
 <script>
-  
+  // Give the user a function, give the user a random number. 
   let n1 = Math.floor(Math.random()*100+1);
   let n2 = Math.floor(Math.random()*100+1);
 
+  // conect the function to box1 in the body 
   document.getElementById('v1').value = n1;
   document.getElementById('v2').value = n2;
 
+  // conect the ans button to the function 
   let ans = n1 + n2;
 
-  const jsGame = () => {
-    var user = document.getElementById('answ').value;
+    var user = document.getElementById('answ').value; {
 
+    // give the user a text if the answer is right 
     if(user == ans) {
       alert("Well done! Your Answer is correct.");
     }
+    // if it´s not tight, give the user the right answer 
     else {
       alert("Correct answer is " + ans + ". Try Again. ");
     }
-
+    
+    // Conect the button function 
     document.getElementById('answ').value = "";
 
     n1 = Math.floor(Math.random()*100+1);
@@ -55,7 +59,8 @@
 
     document.getElementById('v1').value = n1;
     document.getElementById('v2').value = n2;
-
+    
+    // The answer is equal to the number 1 and the number 2 
     ans = n1 + n2;
   }
 </script>
